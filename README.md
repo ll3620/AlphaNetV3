@@ -15,6 +15,7 @@ This code provides a comprehensive framework for preparing, training, and valida
 Retrain the model at specific times (10th, 20th, 30th of the month). At each retraining event:
 * Data is prepared into training and validation sets.
 * The model is instantiated and trained using the `ModelTrainer` class, which handles everything from data ingestion to model evaluation.
+* Cross-validation and early stopping are employed.
 * After training, the model is ready for making predictions.
 
 #### Service Routine:
